@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess Number</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="section">
+        <h1 class="section__header">Угадай число</h1>
+        <div class="section__massage">
+            Привет!
+            <br>
+            Я загадал число от 1 до 100. 
+            <br> 
+            Попробуй угадать его за 5 попыток!
+        </div>
+        <input class="section__input" type="number" placeholder="Введи число">
+        <button class="section__btn">Играть</button>     
+        <input class="section__attempt" type="number" placeholder="5">
+        <div class="section__answer">У тебя есть только 5 попыток!</div>
+        <br>
+        <button class="setting__btn-setting">Настройки</button>
+        <div class="exit">
+            <button class="btn__exit" id="out">Выйти с игры</button>
+        </div> 
+    </div>
+
+    <script  src="js/main.js" defer></script>
+</body>
+</html>
